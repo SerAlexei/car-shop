@@ -1,0 +1,56 @@
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu{
+    list-style: none;
+    display: flex;
+}
+
+.menu-item{
+    margin: 0 20px 0 0;
+}
+
+.menu-item a{
+    color: #000000;
+}
+
+.logo{
+    width: 100%;
+    max-width: 200px;
+    filter: grayscale(1);
+}
+
+.main-title{
+    text-align: center;
+    font-size: 56px;
+}
+
+.article-header{
+    display: flex;
+}
+
+.article-logo{
+    width: 100%;
+    max-width: 200px;
+    margin: 0 20px 0 0;
+}
+
+.article-title{
+    font-size: 48px;
+}
+
+.article-section h3{
+    font-size: 32px;
+}
+
+.article-section h4{
+    font-size: 24px;
+}
+
+.footer-block{
+    display: flex;
+    gap: 20px;
+}
